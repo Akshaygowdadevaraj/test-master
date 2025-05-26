@@ -1,19 +1,4 @@
 #include <stdio.h>
-int main() {
-    int num1, num2, sum;
-
-    printf("Enter first number: ");
-    scanf("%d", &num1);
-    printf("Enter second number: ");
-    scanf("%d", &num2);
-
-    sum = num1 + num2;
-
-    printf("Sum = %d\n", sum);
-
-    return 0;
-}
-#include <stdio.h>
 
 int main() {
     int i;
@@ -47,53 +32,8 @@ int main() {
             break;
         case 5:
             printf("You chose option 5\n");
-            break
+            break;
 
-    }
+    };
 
-#include <stdio.h>
 
-int main() {
-    int i = 1;
-
-    while (i <= 5) {
-        printf("%d\n", i);
-        i++;
-    }
-
-    return 0;
-}
-#include <stdio.h>
-
-int main() {
-    int i = 1;
-
-    do {
-        printf("%d\n", i);
-        i++;
-    } while (i <= 5);
-
-    return 0;
-}
-
-#include <stdio.h>
-
-int main() {
-    int x = 10;
-
-    if (x > 10) {
-        printf("x is greater than 10\n");
-    } else if (x == 10) {
-        printf("x is equal to 10\n");
-    } else {
-        printf("x is less than 10\n");
-    }
-
-    return 0;
-}
-#include <stdio.h>
-
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
